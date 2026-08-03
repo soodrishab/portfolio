@@ -2,7 +2,7 @@ import cors from 'cors';
 
 const allowedOrigins = process.env.ALLOWED_ORIGINS?.split(',') || [
   'http://localhost:4200',
-  'https://rishabsood9.github.io'
+  'https://soodrishab.github.io'
 ];
 
 export const corsMiddleware = cors({

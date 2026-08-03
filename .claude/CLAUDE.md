@@ -107,6 +107,6 @@ npm install                    # Install dependencies
 
 ## Deployment
 
-- **Frontend**: GitHub Pages (rishabsood9.github.io)
+- **Frontend**: GitHub Pages (soodrishab.github.io/portfolio)
 - **Backend**: Railway (free tier)
 - **Database**: MongoDB Atlas (free tier)
