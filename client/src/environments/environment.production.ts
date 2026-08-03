@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: 'https://mean-portfolio-production.up.railway.app/api'
+  apiUrl: 'https://portfolio-api-17ce.onrender.com/api'
 };

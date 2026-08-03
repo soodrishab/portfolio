@@ -15,13 +15,13 @@ const seedProfile = {
   name: 'Rishab Sood',
   title: 'Senior MEAN Stack Developer',
   tagline: 'Angular | Node.js | Express.js | MongoDB | TypeScript | AI-Integrated Applications',
-  summary: `Senior MEAN Stack Developer with 6+ years building scalable, high-performance web applications for global enterprise clients across healthcare, fintech, energy, and private equity domains. Deep expertise across the MEAN stack — MongoDB, Express.js, Angular (2–17), and Node.js, with strong TypeScript fundamentals. Proven ability to own features end-to-end in agile squads, integrate complex microservice backends, and ship production-ready full-stack code. Experienced in remote collaboration with US-based clients and actively building AI-integrated applications using Claude AI, LLM APIs, and agentic workflows.`,
+  summary: `Senior MEAN Stack Developer with 7+ years building scalable, high-performance web applications for global enterprise clients across healthcare, fintech, energy, and private equity domains. Deep expertise across the MEAN stack — MongoDB, Express.js, Angular (2–17), and Node.js, with strong TypeScript fundamentals. Proven ability to own features end-to-end in agile squads, integrate complex microservice backends, and ship production-ready full-stack code. Experienced in remote collaboration with US-based clients and actively building AI-integrated applications using Claude AI, LLM APIs, and agentic workflows.`,
   email: 'rishabsood9@gmail.com',
   phone: '+91 9592006999',
   location: 'Gurgaon, India · Open to Remote',
   avatar: 'https://avatars.githubusercontent.com/u/53430901?v=4',
   resumeUrl: 'https://soodrishab.github.io/portfolio/assets/Rishab_Sood_Resume.pdf',
-  yearsOfExperience: 6,
+  yearsOfExperience: 7,
   socialLinks: [
     { platform: 'GitHub', url: 'https://github.com/rishabsood9', icon: 'fab fa-github' },
     { platform: 'LinkedIn', url: 'https://linkedin.com/in/rishabsood', icon: 'fab fa-linkedin' },
@@ -29,7 +29,7 @@ const seedProfile = {
     { platform: 'Email', url: 'mailto:rishabsood9@gmail.com', icon: 'fas fa-envelope' }
   ],
   highlights: [
-    '6+ Years of Experience',
+    '7+ Years of Experience',
     'MEAN Stack Expert',
     'AI-Integrated Applications',
     'Enterprise Clients',
@@ -169,7 +169,9 @@ const seedSkills = [
       { name: 'Express.js', icon: 'express', proficiency: 90 },
       { name: 'RESTful APIs', icon: 'api', proficiency: 92 },
       { name: 'GraphQL', icon: 'graphql', proficiency: 75 },
-      { name: 'RabbitMQ', icon: 'rabbitmq', proficiency: 70 }
+      { name: 'RabbitMQ', icon: 'rabbitmq', proficiency: 70 },
+      { name: 'C#', icon: 'csharp', proficiency: 60 },
+      { name: '.NET', icon: 'dotnet', proficiency: 60 }
     ],
     order: 2
   },
@@ -180,7 +182,8 @@ const seedSkills = [
       { name: 'MongoDB', icon: 'mongodb', proficiency: 88 },
       { name: 'MySQL/PostgreSQL', icon: 'mysql', proficiency: 80 },
       { name: 'Couchbase', icon: 'couchbase', proficiency: 65 },
-      { name: 'MinIO', icon: 'minio', proficiency: 70 }
+      { name: 'MinIO', icon: 'minio', proficiency: 70 },
+      { name: 'SQL Server', icon: 'sqlserver', proficiency: 70 }
     ],
     order: 3
   },
@@ -322,7 +325,7 @@ const seedChatKnowledge = [
   {
     keywords: ['experience', 'years', 'work', 'career'],
     question: 'Tell me about your experience',
-    answer: "I have 6+ years of experience as a MEAN Stack Developer. I've worked at EPAM Systems (current), CitiusTech, and Nagarro, building enterprise applications for clients in healthcare, fintech, energy, and private equity domains.",
+    answer: "I have 7+ years of experience as a MEAN Stack Developer. I've worked at EPAM Systems (current), CitiusTech, and Nagarro, building enterprise applications for clients in healthcare, fintech, energy, and private equity domains.",
     category: 'experience',
     priority: 9
   },
@@ -385,7 +388,7 @@ const seedChatKnowledge = [
   {
     keywords: ['tech stack', 'technologies', 'tools', 'skills'],
     question: 'What is your tech stack?',
-    answer: "My core stack is MEAN: MongoDB, Express.js, Angular (2-17), and Node.js with TypeScript. I also work with RxJS, NGRX, Angular Material, GraphQL, RabbitMQ, AWS, Docker, and AI tools like Claude AI and LangChain. For testing: Jest, Jasmine, and Karma.",
+    answer: "My core stack is MEAN: MongoDB, Express.js, Angular (2-17), and Node.js with TypeScript. I also work with RxJS, NGRX, Angular Material, GraphQL, RabbitMQ, AWS, Docker, and AI tools like Claude AI and LangChain. I'm actively expanding into C# and .NET. For testing: Jest, Jasmine, and Karma.",
     category: 'skills',
     priority: 9
   },
